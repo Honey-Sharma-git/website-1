@@ -944,6 +944,10 @@ video {
   gap: 4rem;
 }
 
+.gap-12 {
+  gap: 3rem;
+}
+
 .self-end {
   align-self: flex-end;
 }
@@ -1064,6 +1068,29 @@ video {
 .bg-blue-400 {
   --tw-bg-opacity: 1;
   background-color: rgb(96 165 250 / var(--tw-bg-opacity, 1));
+}
+
+.bg-pink-200 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(251 207 232 / var(--tw-bg-opacity, 1));
+}
+
+.bg-\[\#175676\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(23 86 118 / var(--tw-bg-opacity, 1));
+}
+
+.bg-\[pink-200\] {
+  background-color: pink-200;
+}
+
+.bg-\[A9E5BB\] {
+  background-color: A9E5BB;
+}
+
+.bg-\[\#A9E5BB\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(169 229 187 / var(--tw-bg-opacity, 1));
 }
 
 .bg-\[url\(\'\/build\/Images\/laptop\.svg\'\)\] {
@@ -1201,6 +1228,16 @@ video {
   padding-bottom: 1.5rem;
 }
 
+.px-8 {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.py-5 {
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+}
+
 .pt-4 {
   padding-top: 1rem;
 }
@@ -1301,6 +1338,43 @@ video {
 .text-black {
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity, 1));
+}
+
+.text-slate-400 {
+  --tw-text-opacity: 1;
+  color: rgb(148 163 184 / var(--tw-text-opacity, 1));
+}
+
+.text-pink-600 {
+  --tw-text-opacity: 1;
+  color: rgb(219 39 119 / var(--tw-text-opacity, 1));
+}
+
+.shadow-lg {
+  --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.shadow-md {
+  --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.shadow-pink-400 {
+  --tw-shadow-color: #f472b6;
+  --tw-shadow: var(--tw-shadow-colored);
+}
+
+.shadow-\[\] {
+  --tw-shadow-color: ;
+  --tw-shadow: var(--tw-shadow-colored);
+}
+
+.shadow-\[\#A9E5BB\] {
+  --tw-shadow-color: #A9E5BB;
+  --tw-shadow: var(--tw-shadow-colored);
 }
 
 .outline {
