@@ -1051,10 +1051,6 @@ video {
   backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
 }
 
-* {
-  /* outline: 1px solid red; */
-}
-
 .header-bg-image {
   background-image: url("/build/Images/smartphone.svg");
   background-repeat: no-repeat;
